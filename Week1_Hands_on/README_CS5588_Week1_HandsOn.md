@@ -1,3 +1,6 @@
+**Name**: Harsha Sri Neeriganti
+**Major**: Data Science
+**Research / Project Interest**: Multimodal AI/ Gen AI
 # CS 5588 — Week 1: Hands-On
 **Mini-RAG System: Embeddings, Vector Retrieval & Grounded Generation**  
 GitHub → Colab → Hugging Face → Vector Store (FAISS / Chroma)
