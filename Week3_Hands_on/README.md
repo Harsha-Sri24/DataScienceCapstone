@@ -48,7 +48,7 @@
 
 ### Links
 
-- ** Github Link:** https://github.com/sayushmaharjan/CS-5588/tree/main/week-3
-- ** Colab File:** https://colab.research.google.com/github/sayushmaharjan/CS-5588/blob/main/week-3/CS5588_Week3_HandsOn.ipynb
+- ** Github Link:** (https://github.com/Harsha-Sri24/DataScienceCapstone)
+- ** Colab File:** [https://colab.research.google.com/github/sayushmaharjan/CS-5588/blob/main/week-3/CS5588_Week3_HandsOn.ipyn](https://github.com/Harsha-Sri24/DataScienceCapstone/blob/main/Week3_Hands_on/CS5588_Week3_HandsOn_Team2_HarshaSri_Sayush.ipynb)b
 
 
