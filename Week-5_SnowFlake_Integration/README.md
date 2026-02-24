@@ -14,7 +14,7 @@ The application follows a **data-app decoupled architecture**:
 
 ## 🧩 Implemented Extensions
 
-### 5.1 Automated Feature-Engineering Pipeline (Data / Feature Extension)
+### Automated Feature-Engineering Pipeline (Data / Feature Extension)
 
 Implemented entirely in Snowflake views:
 
@@ -32,7 +32,7 @@ Implemented entirely in Snowflake views:
 
   * Joins row-level records with city-level features for downstream analytics.
 
-### 5.2 Monitoring Dashboard for Pipeline Performance (System Extension)
+### Monitoring Dashboard for Pipeline Performance (System Extension)
 
 * **Logging Utilities (`python/logging_utils.py` + `python/snowflake_client.py`)**
 
@@ -42,7 +42,7 @@ Implemented entirely in Snowflake views:
 
   * Shows recent logs, total query count, and latency time-series plots for monitoring pipeline performance.
 
-### 5.3 Interactive Analytics Dashboard Component (System Extension)
+### Interactive Analytics Dashboard Component (System Extension)
 
 * **Dataset Info Section (`app_bert.py`)**
 
