@@ -133,17 +133,11 @@ schema="PUBLIC"
 ```python
 from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark import Session
-
-def get_session():
-    try:
-        # Cloud environment
-        return get_active_session()
-    except:
-        # Local environment
-        import json
-        with open('creds.json') as f:
-            connection_parameters = json.load(f)
-        return Session.builder.configs(connection_parameters).create()
+try:
+     session = get_active_session()
+except Exception:
+      st.error("No active Snowflake session found. Run inside Snowflake Projects.")
+      st.stop()
 
 session = get_session()
 ```
