@@ -9,6 +9,7 @@ The application follows a **data-app decoupled architecture**:
 * **Data Layer:** Snowflake stores raw and aggregated weather data. Snowpark handles transformations.
 * **Application Layer:** Streamlit dashboards (local or cloud) query and visualize the data.
 * **UI Layer:** Interactive charts, filters, and metrics delivered via Streamlit.
+<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/6a2afffe-ed2f-4b79-882f-c5ffdea21e36" />
 
 ---
 
@@ -92,20 +93,13 @@ This project supports **two development workflows**, allowing flexibility for lo
 
 ### For Local Contributors
 
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/your-repo/weather-dashboard.git
-cd weather-dashboard
-```
-
-2. **Install dependencies:**
+1. **Install dependencies:**
 
 ```bash
 pip install snowflake-snowpark-python streamlit pandas plotly
 ```
 
-3. **Configure credentials:**
+2. **Configure credentials:**
 
 ```python
 account="SFEDU02-DCB73175"
