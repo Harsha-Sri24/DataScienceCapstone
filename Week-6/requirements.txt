@@ -1,0 +1,12 @@
+streamlit
+pandas
+requests
+plotly
+transformers
+torch
+datasets
+python-dotenv
+openai
+folium
+streamlit-folium
+numpy
